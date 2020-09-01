@@ -1,0 +1,5 @@
+#!/bin/bash
+
+export LIBGL_ALWAYS_INDIRECT=0
+python3 sample.py
+
