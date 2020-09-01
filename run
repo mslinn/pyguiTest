@@ -3,6 +3,7 @@
 # Runs the sample app for dearpygui
 # https://github.com/hoffstadt/DearPyGui
 
+# For WSL2:
 export LIBGL_ALWAYS_INDIRECT=0
 python3 sample.py
 
