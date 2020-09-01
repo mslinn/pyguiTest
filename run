@@ -5,5 +5,9 @@
 
 # For WSL2:
 export LIBGL_ALWAYS_INDIRECT=0
-python3 sample.py
 
+if [ "$1" ]; then
+  python3 "$1"
+else
+  python3 sample.py
+fi
